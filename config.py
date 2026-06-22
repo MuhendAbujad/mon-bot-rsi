@@ -1,0 +1,15 @@
+import os
+
+TELEGRAM_BOT_TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
+TELEGRAM_CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
+
+SYMBOL = "XAUUSD"
+EXCHANGE = "OANDA"
+INTERVAL = "1m"
+
+RSI_OVERBOUGHT = 80
+RSI_OVERSOLD = 20
+
+CHECK_INTERVAL_SECONDS = 60
+
+CHART_URL = "https://fr.tradingview.com/chart/kRiQZqd4/?symbol=TVC%3AGOLD"
