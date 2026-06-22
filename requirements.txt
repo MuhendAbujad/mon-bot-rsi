@@ -1,3 +1,4 @@
 market-prices
 playwright
 python-telegram-bot
+flask
