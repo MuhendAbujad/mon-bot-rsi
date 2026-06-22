@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: mon-bot-rsi
+    runtime: docker
+    envVars:
+      - key: TRADINGVIEW_SESSION_ID
+        sync: false
+      - key: TELEGRAM_BOT_TOKEN
+        sync: false
+      - key: TELEGRAM_CHAT_ID
+        sync: false
